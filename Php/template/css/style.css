@@ -1,0 +1,82 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+}
+.container .content {
+  width: 700px;
+  min-width: 200px;
+  height: 560px;
+  margin: 0px 20px;
+}
+.container .content .header {
+  width: 100%;
+  display: inline-flex;
+  justify-content: space-between;
+}
+.container .content .header .homePage {
+  display: inline-flex;
+  justify-content: right;
+  align-items: center;
+}
+.container .content .header .homePage a {
+  font-family: sans-serif;
+  color: #7fad39;
+  text-decoration: none;
+  font-size: 30px;
+}
+.container .content .header .homePage a i {
+  color: #7fad39;
+  font-size: 30px;
+  margin-left: 5px;
+}
+.container .content form {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  font-family: sans-serif;
+  background-color: #F3F6FA;
+}
+.container .content form input {
+  display: flexbox;
+  outline: none;
+  border: 0px;
+  margin-top: 15px;
+  padding: 10px;
+}
+.container .content form .to-register-way {
+  color: black;
+  font-family: sans-serif;
+  margin-top: 50px;
+}
+.container .content form .to-register-way a {
+  color: #7fad39;
+  text-decoration: none;
+}
+.container .content form label {
+  margin-top: 10px;
+}
+.container .content form .submit-btn {
+  margin-top: 30px;
+  color: white;
+  background-color: #7fad39;
+  cursor: pointer;
+  text-align: center;
+  padding: 10px 20px;
+}
+.container .content form .text-danger {
+  color: red;
+  margin-top: 10px;
+}/*# sourceMappingURL=style.css.map */

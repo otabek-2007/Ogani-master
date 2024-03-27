@@ -1,0 +1,84 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+
+.fa-user{
+    background-color: #7fad39;
+    padding: 5px 10px;
+    color: aliceblue;
+    border-radius: 5%;
+    letter-spacing: 3px;
+}
+.ul{
+    /* background-color: black; */
+    padding: 0px 30px;
+    font-size: 12px;
+    width: 40px;
+} 
+.ul li{
+    padding: 5px;
+    display: inline-flex;
+    color: aliceblue;
+}
+.ul li span{
+    padding: 0px 10px;
+    color: aliceblue;
+}
+.user-data ul{
+    background: #222222;
+	width: 200px;
+	margin-top: 10px;
+	text-align: left;
+	padding: 5px 0;
+	position: absolute;
+	left: 0;
+	top: 43px;
+	z-index: 9;
+	opacity: 0;
+	visibility: hidden;
+	-webkit-transition: all, 0.3s;
+	-moz-transition: all, 0.3s;
+	-ms-transition: all, 0.3s;
+	-o-transition: all, 0.3s;
+	transition: all, 0.3s;
+}
+.user-data:hover ul{
+    top: 23px;
+	opacity: 1;
+	visibility: visible;
+}
+.user-data{
+    position: relative;
+	display: inline-block;
+    margin-top: 10px;
+
+    padding-right: 10px;
+	cursor: pointer;
+}
+
+
+.user-logout{
+	
+    position: relative;
+	display: inline-block;
+	margin-right: 40px;
+	cursor: pointer;
+}
+.logout-btn{
+	border-radius: 1px;
+	background-color: #7fad39;
+	border: 0px;
+	padding: 2px 5px;
+	font-size: 14px;
+}
+.logout-btn i{
+	margin-left: 3px;
+	
+}
+.background{
+	background-color: #7fad39;
+}
+
+
